@@ -47,6 +47,13 @@ langchain-community==0.3.27
 langchain-core==0.3.68
 langchain-ollama==0.3.4
 langchain-text-splitters==0.3.8
+langchain-google-genai==2.1.8
+langchain-community
+langchain-core
+pydantic
+google-generativeai
+chromadb
+pypdf
 langsmith==0.4.5
 markdown-it-py==3.0.0
 marshmallow==3.26.1
