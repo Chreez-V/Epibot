@@ -2,3 +2,4 @@ epibot/
 *.json
 *.env
 *.pdf
+*_db_*

@@ -21,7 +21,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
 # Carga de PDF
-loader = PyPDFLoader("PacientesFicticios.pdf")
+loader = PyPDFLoader("HojaMorbilidadPacientes.pdf")
 pages = loader.load()
 
 # División de texto en chunks optimizados
